@@ -40,3 +40,4 @@ jobs:
           prefix: coverage
       - store_test_results:
           path: test-results.xml
+      - run: echo Test Complete
